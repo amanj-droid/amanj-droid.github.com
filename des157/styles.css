@@ -8,7 +8,7 @@ html{
 body{
     margin: auto;
     height: 100vh;
-    background: linear-gradient(135deg, rgb(23, 23, 197),  rgb(133, 16, 133));
+    background: linear-gradient(135deg, rgb(23, 23, 197),  rgb(133, 16, 133),rgb(226, 160, 36));
     width: 1366px;
 }
 
@@ -209,4 +209,19 @@ footer a:hover{
 
 footer a:visited{
     color: white;
+}
+
+/*---Circles---*/
+.fas{
+    position: absolute;
+    font-size: 8em;
+    right: 60%;
+    top: 58%;
+    animation: animation3 2s linear infinite ;
+}
+@keyframes animation3 {
+    from { left: -10%; color: rgb(243, 190, 75);
+    }
+    to { left:100%; color: rgb(23, 23, 197);
+    }
 }
