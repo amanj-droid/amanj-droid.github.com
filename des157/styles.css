@@ -60,6 +60,8 @@ h1{
     border-radius: 15px;
     background: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(5px);
+    color: aquamarine;
+    text-shadow: 0px 0px 8px rgb(0, 204, 255);
 }
 
 
@@ -102,7 +104,7 @@ article{
    margin: 0px 40px;
    width: 33%;
 
-   box-shadow: /*2px 2px 15px #2e2e2e,*/
+   box-shadow: 0px 30px 15px #0000004f,
    inset 1px 1px 2px #ffffff;
    border-radius: 15px;
    background: rgba(255,255,255,0.1);
@@ -118,7 +120,7 @@ article:hover{
    margin: 0px 40px;
    width: 33%;
 
-   box-shadow: /*2px 2px 15px #2e2e2e,*/
+   box-shadow: 0px 10px 15px #0000004f,
    inset 1px 1px 2px #ffffff;
    border-radius: 15px;
    background: rgba(255,255,255,0.23);
@@ -186,8 +188,7 @@ footer{
     margin: -20px 400px;
     display: flex;
     justify-content: center;
-    box-shadow: 0px 0px 20px #23adec,
-    inset 2px 2px 2px #ffffff;
+    box-shadow: inset 2px 2px 2px #ffffff;
     border-radius: 15px;
     background: rgba(255,255,255,0.1);
     backdrop-filter: blur(5px);
