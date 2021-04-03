@@ -67,7 +67,6 @@ h1{
 
 
 
-
 /*---HEADER---*/
 .header{
     justify-content: center;
@@ -80,26 +79,27 @@ h1{
     backdrop-filter: blur(5px);
 }
 
+/*--ROCKET ANIMATION--*/
+h1 .fas{
+    transition: ease-in 1s;
+}
+h1:hover .fas{
+    transform: translateX(1000px);
+}
+
 
 /*---CARDS CONTAINER---*/
 .centerContent{
    display: flex;
    max-height: 900px;
    margin: 20px;
-
-   /*border: tomato solid 1px;*/
-   /*box-shadow: inset 1px 1px 2px #ffffff;
-   border-radius: 15px;
-   background: rgba(255,255,255,0.1);
-   backdrop-filter: blur(5px);*/
 }
-
 
 /*---CARDS---*/
 article{
     transform: perspective(2000px) rotateX(45deg)  ; /*one vanishing pixels. # is how extreme the vanishing point is.*/
    overflow: scroll;
-   margin: 0px 40px ;
+   margin: 0px 60px ;
    width: 33%;
    box-shadow: 0px 30px 15px #0000004f,
    inset 1px 1px 2px #ffffff;
