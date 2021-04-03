@@ -100,7 +100,7 @@ article{
     transform: perspective(2000px) rotateX(45deg)  ; /*one vanishing pixels. # is how extreme the vanishing point is.*/
    overflow: scroll;
    margin: 0px 40px ;
-   width: 25%;
+   width: 33%;
    box-shadow: 0px 30px 15px #0000004f,
    inset 1px 1px 2px #ffffff;
    border-radius: 15px;
