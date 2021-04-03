@@ -19,7 +19,7 @@ h1{
 #banner{
     display: flex;
     flex-direction: row;
-    background: rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0.05);
     box-shadow:  inset 1px 1px 2px #ffffff;
     justify-content: center;
     width: 100%;
@@ -36,7 +36,6 @@ h1{
     box-shadow: /*2px 2px 15px #2e2e2e,*/
     inset 1px 1px 2px #ffffff;
     border-radius: 15px;
-    background: rgba(255,255,255,0.1);
     backdrop-filter: blur(5px);
     transition: all ease-in 400ms ;
 }
@@ -50,6 +49,7 @@ h1{
     border-radius: 15px;
     background: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(5px);
+    
 }
 #banner:hover .card:hover{
     transform: perspective(1000px) rotateZ(360deg); /*one vanishing pixels. # is how extreme the vanishing point is.*/
@@ -71,7 +71,7 @@ h1{
 /*---HEADER---*/
 .header{
     justify-content: center;
-    margin: 0px 20px 0px 20px;
+    margin: 0px 20px;
     padding: 30px;
     box-shadow: 0px 10px 20px #23adec,
     inset 2px 0px 2px #ffffff;
@@ -86,7 +86,6 @@ h1{
    display: flex;
    max-height: 900px;
    margin: 20px;
-   padding: 20px;
 
    /*border: tomato solid 1px;*/
    /*box-shadow: inset 1px 1px 2px #ffffff;
@@ -98,11 +97,10 @@ h1{
 
 /*---CARDS---*/
 article{
-    transform: perspective(2000px) rotateX(45deg) ; /*one vanishing pixels. # is how extreme the vanishing point is.*/
+    transform: perspective(2000px) rotateX(45deg)  ; /*one vanishing pixels. # is how extreme the vanishing point is.*/
    overflow: scroll;
-   margin: 0px 40px;
-   width: 33%;
-
+   margin: 0px 40px ;
+   width: 25%;
    box-shadow: 0px 30px 15px #0000004f,
    inset 1px 1px 2px #ffffff;
    border-radius: 15px;
@@ -116,16 +114,6 @@ article{
 article:hover{
    transform: perspective(2000px) rotateX(0deg) ; /*one vanishing pixels. # is how extreme the vanishing point is.*/
    overflow: scroll;
-   margin: 0px 40px;
-   width: 33%;
-
-   box-shadow: 0px 10px 15px #0000004f,
-   inset 1px 1px 2px #ffffff;
-   border-radius: 15px;
-   background: rgba(255,255,255,0.23);
-   justify-content: center;
-   align-items: center;
-   backdrop-filter: blur(5px);
 }
 
 
@@ -184,7 +172,7 @@ nav ul li a:hover{
 
 /*---FOOTER---*/
 footer{
-    margin: -20px 400px;
+    margin: 0px 400px;
     display: flex;
     justify-content: center;
     box-shadow: inset 2px 2px 2px #ffffff;
