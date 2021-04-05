@@ -89,7 +89,7 @@ h1 .fas{
     transition: ease-in-out 1s;
 }
 h1:hover .fas{
-    transform: translateX(1000px);
+    transform: translateX(800px);
 }
 
 
@@ -156,7 +156,7 @@ nav ul li a{
     font-size: .8em;
 }
 nav ul li a:hover{
-    margin-right: 100px;
+    margin-right: 90px;
     border-bottom:3px solid rgb(247, 19, 114);
     transition: all 300ms;
     /*text-shadow: 1px 1px 5px #ffffff, */
