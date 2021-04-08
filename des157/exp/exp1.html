@@ -7,7 +7,12 @@
 </head>
 <body>
     <h1>Experiment 1</h1>
-    <h2>Right click and choose inspect. Then click the Console tab.</h2>
+    <h2>Intructions</h2>
+    <ol>
+        <li>Right click mouse</li>
+        <li>Choose inspect</li>
+        <li>Click the Console tab</li>
+    </ol>
 
     <script>
         //This program lets the user pick two numbers between 0-10 that outputs to them an animal and age. 
@@ -22,10 +27,13 @@
         for(var i=0; i<age.length; i++){
             if(inputNum1 == i){
            console.log(`You are a ${age[i]} ${animals[i]}`);
+           console.log("Press command R to run again.")
             }else if(inputNum1 >10 || inputNum2>10){
             console.log(`Oh no the number you picked was too high!`);
             }
         }
+
+
 
 
 
