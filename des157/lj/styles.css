@@ -1,0 +1,73 @@
+body{
+    margin: auto;
+    padding: 30px;
+    width: 600px;
+    font-family: 'Lato', sans-serif;
+    /* border: solid 2px white; */
+    background-color: rgb(27, 27, 27);
+    color: white;
+
+}
+
+h1, h2{
+    font-family: 'Bodoni Moda', serif;
+}
+
+h1{
+    color: rgb(130, 204, 158);
+    margin: 30px;
+}
+
+h2{
+    margin-top: 10px;
+    padding-bottom: 6px;
+
+}
+
+p{
+    line-height: 1.3em;
+    font-weight: 300;
+    color: white;
+    padding: 0px 25px;
+}
+p a{
+    color: rgb(241, 151, 99);
+    text-emphasis: none;
+    text-decoration: none;
+}
+p a:visited{
+    color: rgb(241, 151, 99);
+}
+
+p:last-child{
+    padding-bottom: 10px;
+    border-bottom: solid white 1px;
+}
+
+
+time{
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+}
+
+article{
+    background-color: rgb(83, 126, 100);
+    position: relative;
+    margin: auto;
+    margin-bottom: 50px;
+    width: 500px;
+    padding: 30px;
+    border-radius: 15px;
+    height: 400px;
+    overflow: scroll;
+
+    box-shadow: inset 0px -10px 15px 2px rgb(27, 27, 27, .6);
+
+    transition: 400ms;
+}
+
+article:hover{
+    background-color: rgb(57, 85, 68);
+}
+
+
