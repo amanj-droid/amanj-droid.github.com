@@ -9,6 +9,27 @@ body{
 
 }
 
+nav{
+    display: flex;
+    justify-content: end;
+    margin-left: 450px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li a:hover{
+    border-bottom: solid 2px rgb(130, 204, 158);
+}
+
+nav ul li a:visited{
+    color: white;
+}
+
 h1, h2{
     font-family: 'Bodoni Moda', serif;
 }
