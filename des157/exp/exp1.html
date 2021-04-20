@@ -14,69 +14,25 @@
         <li>Click the Console tab</li>
     </ol>
 
+    <script>
+        //This program lets the user pick two numbers between 0-10 that outputs to them an animal and age. 
 
-    <form action="processor.php" method="POST">
-        <label for="fname">First Name</label>
-        <input type="text" name="fname" id="fname" placeholder="Bob" required>
-
-        <label for="favcolor">Favorite Color</label>
-        <input type="color" id="favcolor" name="favcolor">
-
-        <fieldset>
-            <legend>Do you want spam?</legend>
-            <input type="radio" name="spam" id="spam-yes" value="yes">
-            <label for="spam-yes">yes, send me spam</label>
-
-            <input type="radio" name="spam" id="spam-no" value="no" checked>
-            <label for="spam-no">no, don't send me spam</label>
-         </fieldset>
-         <fieldset>
-             <legend>What animals do you like?</legend>
-
-             <input type="checkbox" name="animals[]" id="cat" value="cat">
-             <label for="cat">Cat</label>
-
-             <input type="checkbox" name="animals[]" id="dog" value="dog">
-             <label for="dog">Dog</label>
-
-             <input type="checkbox" name="animals[]" id="Koala" value="Koala">
-             <label for="Koala">Koala</label>
-         </fieldset>
-
-         <label for="cheeses">Favorite Cheese</label>
-         <select name="" id="cheeses">
-            <option value="" selected>---</option>
-            <option value="American">American</option>
-            <option value="Cheddar">Cheddar</option>
-            <option value="Brie">Brie</option>
-            <option value="Swiss">Swiss</option>
-        </select>
-
-        <label for="comments">Please provide comments</label>
-        <textarea name="comments" id="comments" cols="30" rows="2"></textarea>
-
-        <input type="submit" name="submit" id="sendForm" value="Send this form!">
-
-        <style>
-            body{
-                font-family: sans-serif;
+        const inputNum1 = prompt ("Pick a random number between 0-10", "");
+        const animals = ["Donkey","Camel","Giraffe","Big ass turtle","Parrot","Gecko","Zebra","Koala","Hippo","Wolf", "Bear"]
+   
+        const inputNum2 = prompt ("Pick another random number between 0-10", "");
+        const age = ["40 year old","82 year old","64 year old","2 year old","56 year old","102 year old","76 year old","3 year old","93 year old", "9 year old", "103 year old"];
+        <h2>Right click and choose inspect. Then click the Console tab.</h2>
+        for(var i=0; i<age.length; i++){
+            if(inputNum1 == i){
+           console.log(`You are a ${age[i]} ${animals[i]}`);
+           console.log("Press command R to run again.")
+            }else if(inputNum1 >10 || inputNum2>10){
+            console.log(`Oh no the number you picked was too high!`);
             }
-            input, label{
-                display: block;
-            }
+        }
 
-            input{
-                margin-bottom: 16px;
-            }
-
-            fieldset input, fieldset label{
-                display: inline;
-            }
-
-            label{
-                margin-top: 40px;
-            }
-        </style>
+    </script>
 
 </body>
 </html>
