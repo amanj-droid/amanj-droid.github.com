@@ -28,7 +28,7 @@
         const familyMember = document.querySelector('#famMember').value;
         const bodyPart = document.querySelector('#bodyPart').value;
        
-        const myText = `There was once a pig who turned into a man because of a dreadful thing he did. He couldn't return into his ${adj.toLowerCase()} self until he had discovered the true power of the ${pluralNoun.toLowerCase()}. He started ${verb.toLowerCase()} until he came up with an answer. The first thing he would have to do is acquire the help of a ${color.toLowerCase()} ${food.toLowerCase()}. Once he was full, he hopped on his ${animal.toLowerCase()} and started riding for the Mystic Mountain. When he arrived he realized he had to climb the mountain using only his ${familyMember}. He knew his efforts were in vain when his ${bodyPart.toLowerCase()} got stuck.`;
+        const myText = `There was once a pig who turned into a man because of a dreadful thing he did. He couldn't return into his ${adj.toLowerCase()} self until he had discovered the true power of the ${pluralNoun}. He started ${verb.toLowerCase()} until he came up with an answer. The first thing he would have to do is acquire the help of a ${color.toLowerCase()} ${food.toLowerCase()}. Once he was full, he hopped on his ${animal.toLowerCase()} and started riding for the Mystic Mountain. When he arrived he realized he had to climb the mountain using only his ${familyMember}. He knew his efforts were in vain when his ${bodyPart.toLowerCase()} got stuck.`;
 
         madlib.innerHTML = `${myText}`;
 
