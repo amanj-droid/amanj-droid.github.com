@@ -14,6 +14,7 @@ body{
 #left .pig{
     position: absolute;
     height: 20%;
+    width: auto;
     top: 530px;
     right: 750px;
     z-index: 2;
@@ -22,6 +23,7 @@ body{
 #left .man{
     position: absolute;
     height: 30%;
+    width: auto;
     top: 450px;
     right: 40px;
     z-index: 2;
