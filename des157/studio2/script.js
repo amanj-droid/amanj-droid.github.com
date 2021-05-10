@@ -42,8 +42,7 @@
         'image18.png',
         'image19.png',
         'image20.png',
-        'image21.png',
-        'image22.png'
+        'image21.png'
         ];
         
     let currentImage = 1;
