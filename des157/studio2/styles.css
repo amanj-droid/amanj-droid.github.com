@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    border: 1px solid tomato;
+}
+body{
+    background-color: thistle;
+    
+    color: white;
+    font-family: 'Montserrat Alternates', sans-serif;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+/* HEADER CONTENT */
+header{
+    position: relative;
+}
+
+h1{
+    font-weight: 600;
+    text-align: center;
+    padding-top: 300px;
+}
+
+nav{
+    
+    margin: 200px 630px 0px 630px;
+}
+a{
+    text-align: center;
+    font-weight: 400;
+    background-color: white;
+    border-radius: 30px;
+    font-size: 1.5em;
+    color: rgb(13, 35, 160);
+    border: white 2px solid;   
+    text-decoration: none;
+    padding: 8px 18px;
+    transition: all 200ms;
+}
+
+a:hover{
+    background-color: rgb(255,255,255, 40%); 
+    color: white;
+    border: white 2px solid;   
+}
+
+
+
+.heroImage #bg1{
+    position: absolute;
+    z-index: -1002;
+    top: 0;
+    transition: 300ms;
+}
+
+.heroImage #bg2,
+.heroImage #bg3,
+.heroImage #bg4,
+.heroImage #bg5,
+.heroImage #bg6
+{
+    position: absolute;
+    z-index: -1000;
+    top: 0;
+}
+
+
+
+
+
+
+/* BOTTOM CONTENT */
+#content{
+    position: relative;
+    top: 200px;
+    height: 500px;
+    margin-bottom: 300px;
+}
+
+h2{
+    color: white;    
+    font-size: 2em;
+    z-index: -1001;
+    margin-left: 40px;
+}
+
+article{
+    background-color: thistle;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    justify-content: center;
+    object-fit: cover;
+}
+
+article img{
+    transition: 500ms;
+    transition-delay: 200ms;
+
+    transform: scale(.75);
+    border: 1px solid white;
+}
+
+article img:hover{
+    transform: scale(1);
+}
+
+/* BUTTONS */
+#previous, #next{
+    background-color: rgb(255, 255, 255, .3);
+    color: white;
+
+    margin: 180px 100px 0px 100px;
+    height: 45px;
+    font-size: 2em;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+#next{
+    padding: 2px 12px 0px 15px;
+}
+#previous{
+    padding: 2px 15px 0px 12px;
+}
