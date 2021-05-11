@@ -2,22 +2,34 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-/*     border: 1px solid tomato;
- */}
+}
 body{
-    background-color: thistle;
-    
+    background-image: linear-gradient(to bottom, rgb(22, 23, 46), rgb(96, 100, 163));
     color: white;
     font-family: 'Montserrat Alternates', sans-serif;
-    height: 100vh;
+    height: 100%;
     overflow-x: hidden;
 }
 
+/* TOP NAV */
 
+#back{
+    margin: 30px;
+}
+#back ul{
+    display: flex;
+    justify-content: left;
+}
 
-
-
-
+#back ul li{
+    list-style: none;
+    margin: 15px;
+}
+#back ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(96, 100, 163);
+}
 
 
 /* HEADER CONTENT */
@@ -26,16 +38,13 @@ header{
 }
 
 h1{
+    margin-top: 300px;
+    padding: 10px 0px;
     font-weight: 600;
     text-align: center;
-    padding-top: 300px;
 }
 
-nav{
-    
-    margin: 200px 630px 0px 630px;
-}
-a{
+#button{
     text-align: center;
     font-weight: 400;
     background-color: white;
@@ -46,9 +55,10 @@ a{
     text-decoration: none;
     padding: 8px 18px;
     transition: all 200ms;
+    margin-top: 100px;
 }
 
-a:hover{
+#button:hover{
     background-color: rgb(255,255,255, 40%); 
     color: white;
     border: white 2px solid;   
@@ -56,11 +66,11 @@ a:hover{
 
 
 
+
 .heroImage #bg1{
     position: absolute;
     z-index: -1002;
     top: 0;
-    transition: 300ms;
 }
 
 .heroImage #bg2,
@@ -77,8 +87,6 @@ a:hover{
 
 
 
-
-
 /* BOTTOM CONTENT */
 #content{
     position: relative;
@@ -90,18 +98,13 @@ a:hover{
 h2{
     color: white;    
     font-size: 2em;
-    z-index: -1001;
     margin-left: 40px;
 }
 
 article{
-    background-color: thistle;
     display: flex;
-    width: 300px;
-    height: 300px;
     margin: auto;
     justify-content: center;
-    object-fit: cover;
 }
 
 article img{
@@ -116,21 +119,65 @@ article img:hover{
     transform: scale(1);
 }
 
-/* BUTTONS */
+
+
+/* BUTTONS ABSOLUTE */
 #previous, #next{
     background-color: rgb(255, 255, 255, .3);
     color: white;
-
-    margin: 180px 100px 0px 100px;
+    position: absolute;
     height: 45px;
     font-size: 2em;
     border-radius: 30px;
     border: none;
     outline: none;
+    transition: 400ms all ;
 }
+
 #next{
     padding: 2px 12px 0px 15px;
+    margin: 200px 0px 0px 600px;
 }
 #previous{
     padding: 2px 15px 0px 12px;
+    margin: 200px 600px 0px 0px;
 }
+
+#previous:hover, #next:hover{
+    transform: rotateX(180deg);
+    background-color: rgb(255, 196, 129);
+}
+
+/* FOOTER */
+nav{
+    margin: auto;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(255, 196, 129);
+}
+
+nav ul li a:visited{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(255, 127, 68);
+}
+
+
+

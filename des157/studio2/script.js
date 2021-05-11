@@ -12,12 +12,12 @@
     window.addEventListener('scroll', function(){
         const value = window.scrollY;
         bg1.style.top = -value * .8 + 'px';
-        bg2.style.top = -value * 3 + 'px';
-        bg2.style.left = -value * 3 + 'px';
+        bg2.style.top = -value * 2 + 'px';
+        bg2.style.left = -value * 1 + 'px';
         bg3.style.top = -value * .15 + 'px';
         bg4.style.top = -value * .2 + 'px';
         bg5.style.top = -value * .25 + 'px';
-        bg6.style.top = -value * .3 + 'px';       
+        bg6.style.top = -value * .3 + 'px';    
     })
 
 
@@ -42,7 +42,8 @@
         'image18.png',
         'image19.png',
         'image20.png',
-        'image21.png'
+        'image21.png',
+        'image22.png'
         ];
         
     let currentImage = 1;
@@ -68,9 +69,6 @@
         }
         slide.src = `images/${myImages[currentImage]}`;
     }
-
-
-
 
     
 })();
