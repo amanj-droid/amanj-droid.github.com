@@ -9,7 +9,7 @@
     let bg5 = document.getElementById('bg5');
     let bg6 = document.getElementById('bg6');
 
-    window.addEventListener('scroll', function(){
+    window.addEventListener('scroll', function () {
         const value = window.scrollY;
         bg1.style.top = -value * .8 + 'px';
         bg2.style.top = -value * 2 + 'px';
@@ -17,7 +17,7 @@
         bg3.style.top = -value * .15 + 'px';
         bg4.style.top = -value * .2 + 'px';
         bg5.style.top = -value * .25 + 'px';
-        bg6.style.top = -value * .3 + 'px';    
+        bg6.style.top = -value * .3 + 'px';
     })
 
 
@@ -44,31 +44,31 @@
         'image20.png',
         'image21.png',
         'image22.png'
-        ];
-        
+    ];
+
     let currentImage = 1;
-        
+
     const slide = document.getElementById('myimage');
-        
+
     document.getElementById('next').addEventListener('click', nextPhoto);
 
-    function nextPhoto(){
-    currentImage++;
-        if(currentImage > myImages.length-1){
+    function nextPhoto() {
+        currentImage++;
+        if (currentImage > myImages.length - 1) {
             currentImage = 1;
-        }
-        slide.src =`images/${myImages[currentImage]}`;
-    }
-
-    document.getElementById('previous').addEventListener('click', previousPhoto);
-
-    function previousPhoto(){
-        currentImage--;
-        if(currentImage < 0){
-            currentImage = myImages.length-1;
         }
         slide.src = `images/${myImages[currentImage]}`;
     }
 
-    
+    document.getElementById('previous').addEventListener('click', previousPhoto);
+
+    function previousPhoto() {
+        currentImage--;
+        if (currentImage < 0) {
+            currentImage = myImages.length - 1;
+        }
+        slide.src = `images/${myImages[currentImage]}`;
+    }
+
+
 })();
