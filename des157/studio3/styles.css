@@ -121,3 +121,9 @@ button:hover {
 strong{
     color: yellow;
 }
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 0 5px;
+}
