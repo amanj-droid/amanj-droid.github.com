@@ -20,11 +20,10 @@
         bg5.style.top = -value * .25 + 'px';
         bg6.style.top = -value * .3 + 'px';
 
-        //scrollPrompt.style.paddingBottom = -value * 6 + 'px';
         console.log(value);
     })
 
-    /* HOVER ON AND OFF STATES */
+    /* HOVER ON AND OFF STATES for image 1*/
     document.getElementById('img01Cut').addEventListener('mouseover', hoverOn);
 
     function hoverOn() {

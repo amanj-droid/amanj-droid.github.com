@@ -4,8 +4,8 @@
     scroll-behavior: smooth;
     box-sizing: border-box;
 
-/*     border: 1px solid tomato;
- */}
+/*  border: 1px solid tomato;*/
+}
 body{
     background-image: linear-gradient(to top, rgb(2, 2, 5), rgb(73, 91, 150));
     color: white;
@@ -34,15 +34,13 @@ body{
 }
 
 
-/* HEADER CONTENT */
+/* Landing screen */
 h1{
     margin-top: 250px;
     padding: 10px 0px;
     font-weight: 600;
     text-align: center;
 }
-
-
 .heroImage #bg1{
     position: absolute;
     z-index: -1002;
@@ -89,13 +87,12 @@ h1{
 
 
 
-/* BOTTOM CONTENT */
+/* illustration content */
 #content{
     position: relative;
     top: 100px;
     height: 500px;
     margin-bottom: 300px;
-
 }
 
 h2{
@@ -113,10 +110,7 @@ article{
 
 #content img{
     margin: 0 auto 70px auto;
-/*     border: 1px solid lightblue;
- */    width: 500px;
-    
-    
+    width: 500px; 
 }
 
 figcaption{
@@ -145,11 +139,14 @@ figcaption{
 
 /* FOOTER */
 #footer nav{
-    margin: auto;
+    position: absolute;
+    top: 1150%;
+    left: 50%;
+    transform: translate(-50%);
+    
 }
 #footer nav ul{
     display: flex;
-    justify-content: center;
 }
 
 #footer nav ul li{
@@ -159,19 +156,14 @@ figcaption{
 #footer nav ul li a{
     text-decoration: none;
     font-size: 16px;
-    color: white;
 }
 
 #footer nav ul li a:hover{
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(255, 196, 129);
+    color: white;
 }
 
 #footer nav ul li a:visited{
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(255, 127, 68);
+    color: white;
 }
 
 
