@@ -1,6 +1,11 @@
 (function () {
     'use strict'
 
+    /* USER TEST ALERTS */
+    alert("Hi user! Since this is a gallery webpage, there isn't much to do. So, I have one task for you. Simply read what's on the landing page and then scroll down to enjoy the content. After, scroll back up when youre done.")
+
+
+
     /* PARALLAX animation on scroll */
     let bg1 = document.getElementById('bg1');
     let bg2 = document.getElementById('bg2');
@@ -22,6 +27,8 @@
 
         console.log(value);
     })
+
+
 
     /* HOVER ON AND OFF STATES for image 1*/
 

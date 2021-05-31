@@ -9,7 +9,7 @@ body{
     color: white;
     font-family: 'Montserrat Alternates', sans-serif;
     background-image: linear-gradient(to top, rgb(2, 2, 5), rgb(73, 91, 150));
-    height: 10000px;
+    height: 10250px;
 
 }
 
@@ -55,6 +55,7 @@ h1{
     position: absolute;
     z-index: -1000;
     top: 0;
+    
 }
 
 .journey,
@@ -118,7 +119,7 @@ article{
     flex-direction: column;
     justify-content: center;
 
-    height: 100vh;
+    height: 780px;
 }
 
 #content img{
@@ -141,7 +142,7 @@ figcaption{
 /* FOOTER */
 #footer nav{
     position: absolute;
-    top: 1310%;
+    top: 10180px;
     left: 50%;
     transform: translate(-50%);
 }
