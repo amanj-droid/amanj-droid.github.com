@@ -2,7 +2,7 @@
     'use strict'
 
     /* USER TEST ALERTS */
-    alert("Hi user! Since this is a gallery webpage, there isn't much to do. So, I have one task for you. Simply read what's on the landing page and then scroll down to enjoy the content. After, scroll back up when youre done.")
+    alert("Hi user! Since this is a gallery webpage, there isn't much to do. So, I have one task for you. Simply read what's on the landing page and then scroll down to enjoy the content. After, scroll back up when you're done.")
 
 
 
