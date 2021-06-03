@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(90, 110, 199));
+    height: 10250px;
+
+}
+
+
+
+
+/* TOP NAV */
+#back{
+    margin: 30px;
+}
+#back ul{
+    display: flex;
+    justify-content: left;
+}
+
+#back ul li{
+    list-style: none;
+    margin: 15px;
+}
+#back ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(96, 100, 163);
+}
+
+
+
+
+
+
+/* Landing screen */
+h1{
+    margin-top: 250px;
+    padding: 10px 0px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.heroImage #bg1{
+    position: absolute;
+    z-index: -2;
+    top: 0;
+}
+
+.heroImage #bg2,
+.heroImage #bg3,
+.heroImage #bg4,
+.heroImage #bg5,
+.heroImage #bg6
+{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    
+}
+
+.journey,
+.scroll,
+.arrow{
+    text-align: center;
+    margin: 15px 0;
+}
+
+.scroll{
+    margin-top: 200px;
+    animation: bounce 800ms infinite alternate;
+}
+
+.arrow{
+    animation: spin 800ms infinite alternate;
+    font-size: 2em;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(180deg);
+    }
+}
+
+
+
+
+/* Progress bar */
+.holder{
+    z-index: 1000;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 10px;
+    width: 100%;
+}
+
+.progressBar{
+    height: 100%;
+    width: 0%;
+    background-color: rgb(139, 186, 247);
+    box-shadow: 0px 0px 10px rgb(44, 188, 255);
+}
+
+
+
+
+
+/* illustration content */
+#content{
+    position: relative;
+    top: 100px;
+    height: 500px;
+    margin-bottom: 300px;
+}
+
+h2{
+    margin: 20px 0 60px 40px;
+    color: white;    
+    font-size: 2em;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 780px;
+}
+
+#content img{
+    margin: 0 auto 70px auto;
+    width: 500px; 
+}
+
+figcaption{
+    font-size: 1.6em;
+    padding: 30px 0 10px 0;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* FOOTER */
+#footer nav{
+    position: absolute;
+    top: 10180px;
+    left: 50%;
+    transform: translate(-50%);
+}
+#footer nav ul{
+    display: flex;
+}
+
+#footer nav ul li{
+    list-style: none;
+    margin: 15px;
+}
+#footer nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#footer nav ul li a:visited{
+    color: white;
+}
+
+.fa-arrow-up{
+    position: absolute;
+    left: 50%;
+    bottom: 200%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    animation: blinker 1s infinite alternate;
+}
+
+@keyframes blinker{
+    0%{
+        color: rgb(61, 204, 61);
+        text-shadow: 0px 0px 10px lime;
+    }
+    100%{
+        color: rgb(85, 85, 85);
+
+    }
+}
+
+
+
